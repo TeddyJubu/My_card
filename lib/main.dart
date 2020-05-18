@@ -68,8 +68,15 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2,
                 ),
               ),
+              SizedBox(
+                height: 50.0,
+                width: 250.0,
+                child: Divider(
+                  color: Colors.grey.shade400,
+                ),
+              ),
               Card(
-                margin: EdgeInsets.fromLTRB(35, 35, 35, 0),
+                margin: EdgeInsets.fromLTRB(35, 0, 35, 0),
                 color: Colors.white,
                 //width: double.infinity,
                 //height: 50.0,
@@ -91,7 +98,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.fromLTRB(35, 10, 35, 0),
+                margin: EdgeInsets.fromLTRB(35, 18, 35, 0),
                 color: Colors.white,
                 //width: double.infinity,
                 //height: 50.0,
