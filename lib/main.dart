@@ -68,6 +68,50 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2,
                 ),
               ),
+              Card(
+                margin: EdgeInsets.fromLTRB(35, 35, 35, 0),
+                color: Colors.white,
+                //width: double.infinity,
+                //height: 50.0,
+                //padding: EdgeInsets.all(10.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.smartphone,
+                    color: Colors.grey.shade700,
+                  ),
+                  title: Text(
+                    '01521207499',
+                    style: TextStyle(
+                      color: Colors.grey.shade700,
+                      fontFamily: 'BaiJamjuree',
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.fromLTRB(35, 10, 35, 0),
+                color: Colors.white,
+                //width: double.infinity,
+                //height: 50.0,
+                //padding: EdgeInsets.all(10.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.grey.shade700,
+                  ),
+                  title: Text(
+                    'syeedmdjobayer@gmail.com',
+                    style: TextStyle(
+                      color: Colors.grey.shade700,
+                      fontFamily: 'BaiJamjuree',
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
